@@ -1,7 +1,7 @@
 ```
 #!/bin/sh
 . ~/.bashrc
-SCRIPT_DIR='/home1/irteam/scripts/'
+SCRIPT_DIR='/home1/scripts/'
 function messageSender(){
   baseMessenger=$SCRIPT_DIR'message-Sender.sh '
   messageSender=$baseMessenger$1
